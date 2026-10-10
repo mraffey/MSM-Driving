@@ -1,0 +1,925 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Driving Lessons Glasgow | MSM Driving</title>
+<meta name="description" content="Manual driving lessons in Glasgow with MSM Driving. Courses for beginners, novice drivers and refreshers in a dual-control VW Golf, with a DVSA approved instructor who knows every Glasgow and Paisley test route.">
+<meta name="theme-color" content="#FBF4EA">
+<!-- PLACEHOLDER: set to the live web address once the site is online -->
+<link rel="canonical" href="https://msm-driving.co.uk/">
+<!-- Link preview when the site is shared on WhatsApp, Instagram, Facebook etc. -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="MSM Driving | Driving Lessons in Glasgow">
+<meta property="og:description" content="Pass first time with Glasgow's test route specialist. Manual lessons in a dual-control VW Golf. Limited spaces.">
+<meta property="og:url" content="https://msm-driving.co.uk/">
+<meta property="og:image" content="https://msm-driving.co.uk/images/share.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='4' y='4' width='56' height='56' rx='10' fill='%23fff'/%3E%3Cpath d='M22 14v32h22' fill='none' stroke='%23C8102E' stroke-width='9'/%3E%3C/svg%3E">
+<!-- Tells Google this is a local driving school (helps "driving lessons Glasgow" searches) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DrivingSchool",
+  "name": "MSM Driving",
+  "description": "Manual driving lessons in Glasgow in a dual-control VW Golf with a DVSA approved driving instructor. Courses for beginners, novice drivers and refreshers.",
+  "telephone": "+447809763712",
+  "url": "https://msm-driving.co.uk/",
+  "image": "https://msm-driving.co.uk/images/share.jpg",
+  "areaServed": ["Glasgow", "West End", "Southside", "City Centre", "Partick", "Govan", "Anniesland", "Maryhill", "Dennistoun", "Shawlands", "Baillieston", "Bishopbriggs", "Paisley"],
+  "address": { "@type": "PostalAddress", "addressLocality": "Glasgow", "addressCountry": "GB" },
+  "knowsAbout": ["Manual driving lessons", "Glasgow Anniesland test centre", "Glasgow Shieldhall test centre", "Glasgow Baillieston test centre", "Bishopbriggs test centre", "Paisley test centre"],
+  "priceRange": "£45–£990"
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,600;1,9..144,700&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Montserrat:wght@900&display=swap">
+<style>
+/* Layout: one page, one goal (WhatsApp). Warm cream ground, soft serif headings,
+   terracotta for actions, honey yellow for the MSM plate and test centres, L-plate red only for urgency.
+   The car is an illustration (inline SVG), so there's nothing heavy to download. */
+
+:root {
+  --bg: #FBF4EA;
+  --card: #FFFBF5;
+  --line: rgba(74, 46, 28, .12);
+  --line-hi: rgba(74, 46, 28, .22);
+  --ink: #2E1F16;
+  --muted: #6F5B4C;
+  --acc: #D9643A;
+  --acc-hover: #C4532A;
+  --acc-ink: #FFF8F0;
+  --acc-soft: rgba(217, 100, 58, .1);
+  --honey: #F2B24A;
+  --honey-2: #F7CB7A;
+  --cocoa: #3A2618;
+  --sage: #7E9B6A;
+  --star: #E8A13A;
+
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-body: "DM Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-plate: "Montserrat", "Arial Black", sans-serif;
+
+  --step--1: .875rem;
+  --step-0: 1.0625rem;
+  --step-1: 1.1875rem;
+  --step-3: clamp(1.8rem, 1.35rem + 2vw, 2.65rem);
+  --step-4: clamp(2.5rem, 1.7rem + 3.6vw, 4.4rem);
+
+  --wrap: 1120px;
+  --gutter: clamp(16px, 4vw, 32px);
+  --ease: cubic-bezier(.16, 1, .3, 1);
+  --ease-soft: cubic-bezier(.22, 1, .36, 1);
+  --shadow: 0 1px 2px rgba(90, 50, 20, .06), 0 18px 40px -24px rgba(90, 50, 20, .35);
+  color-scheme: light;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-padding-top: 96px; scroll-behavior: smooth; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: var(--step-0); line-height: 1.6; -webkit-font-smoothing: antialiased; overflow-x: clip; }
+svg { display: block; }
+a { color: inherit; }
+h1, h2, h3 { font-family: var(--font-display); margin: 0; line-height: 1.08; text-wrap: balance; font-optical-sizing: auto; }
+h1 { font-size: var(--step-4); font-weight: 700; letter-spacing: -.025em; }
+h2 { font-size: var(--step-3); font-weight: 700; letter-spacing: -.02em; }
+h3 { font-size: var(--step-1); font-weight: 700; letter-spacing: -.01em; }
+p { margin: 0; }
+:focus-visible { outline: 3px solid var(--acc); outline-offset: 3px; border-radius: 8px; }
+::selection { background: rgba(242, 178, 74, .45); }
+
+.wrap { max-width: var(--wrap); margin-inline: auto; padding-inline: var(--gutter); }
+.section { position: relative; padding-block: clamp(72px, 10vw, 124px); }
+.head { display: grid; gap: 14px; max-width: 660px; margin-bottom: clamp(32px, 4.5vw, 52px); }
+.kicker { display: inline-flex; align-items: center; gap: 10px; width: fit-content; font-size: .8125rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--acc); }
+.kicker::before { content: ""; width: 24px; height: 2px; background: var(--acc); border-radius: 2px; }
+.sub { color: var(--muted); font-size: var(--step-1); max-width: 56ch; }
+.ph { background: rgba(242, 178, 74, .22); color: #7A4B0E; border: 1px dashed #D89A35; border-radius: 5px; padding: 0 .2em; }
+.hl { font-style: italic; color: var(--acc); }
+
+/* ---------- reveal (only with motion on) ---------- */
+.motion .rv { opacity: 0; transform: translate3d(0, 24px, 0); transition: opacity .8s var(--ease-soft), transform .9s var(--ease-soft); transition-delay: calc(var(--i, 0) * 80ms); }
+.motion .rv.in { opacity: 1; transform: none; }
+
+/* ---------- card surface with a warm glow that follows the cursor ---------- */
+.glass {
+  --mx: 50%; --my: 0%;
+  position: relative; isolation: isolate; border-radius: 22px;
+  background: var(--card); border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+  transition: transform .6s var(--ease), box-shadow .6s var(--ease), border-color .4s;
+}
+.glass::before { /* glowing border that follows the cursor */
+  content: ""; position: absolute; inset: -1px; border-radius: inherit; padding: 1.5px; pointer-events: none; z-index: 2;
+  background: radial-gradient(200px circle at var(--mx) var(--my), rgba(217, 100, 58, .75), transparent 70%);
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor; mask-composite: exclude;
+  opacity: 0; transition: opacity .5s;
+}
+.glass::after { /* soft inner light */
+  content: ""; position: absolute; inset: 0; border-radius: inherit; pointer-events: none; z-index: -1;
+  background: radial-gradient(360px circle at var(--mx) var(--my), rgba(242, 178, 74, .14), transparent 65%);
+  opacity: 0; transition: opacity .5s;
+}
+.glass:hover::before, .glass:hover::after { opacity: 1; }
+.glass:hover { box-shadow: 0 1px 2px rgba(90, 50, 20, .06), 0 30px 60px -28px rgba(90, 50, 20, .45); }
+@media (hover: none), (max-width: 760px) { .glass::before, .glass::after { display: none; } }
+@media (hover: hover) and (pointer: fine) { .tilt { transform-style: preserve-3d; } }
+
+/* ---------- buttons ---------- */
+.btn { position: relative; overflow: hidden; display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 54px; padding: 14px 26px; border-radius: 999px; font: 700 1.0625rem/1.2 var(--font-body); text-decoration: none; cursor: pointer; border: 0; transition: transform .45s var(--ease), background-color .25s, box-shadow .45s var(--ease), border-color .25s, color .25s; }
+.btn svg { width: 22px; height: 22px; flex: none; }
+.btn-wa { background: var(--acc); color: var(--acc-ink); box-shadow: 0 10px 24px -8px rgba(217, 100, 58, .55), inset 0 1px 0 rgba(255,255,255,.25); }
+.btn-wa:hover { background: var(--acc-hover); box-shadow: 0 16px 34px -10px rgba(196, 83, 42, .6), inset 0 1px 0 rgba(255,255,255,.3); }
+.btn-wa::after { content: ""; position: absolute; inset: 0; background: linear-gradient(110deg, transparent 30%, rgba(255,240,220,.4) 50%, transparent 70%); transform: translateX(-120%); }
+.motion .btn-wa::after { animation: sheen 4.5s ease-in-out 1.5s infinite; }
+@keyframes sheen { 0%, 70% { transform: translateX(-120%); } 100% { transform: translateX(120%); } }
+.btn .lbl { position: relative; z-index: 1; display: inline-flex; align-items: center; gap: 10px; transition: transform .45s var(--ease); }
+.btn-ghost { background: transparent; color: var(--ink); border: 1.5px solid var(--line-hi); }
+.btn-ghost:hover { border-color: var(--acc); color: var(--acc); }
+.btn-sm { min-height: 44px; padding: 8px 18px; font-size: .9375rem; }
+.micro { display: flex; flex-wrap: wrap; gap: 6px 18px; color: var(--muted); font-size: var(--step--1); }
+.micro span { display: inline-flex; align-items: center; gap: 6px; }
+.micro svg { width: 16px; height: 16px; color: var(--sage); }
+
+/* ---------- header: floating capsule ---------- */
+.progress { position: fixed; top: 0; left: 0; right: 0; height: 3px; z-index: 60; transform-origin: 0 50%; transform: scaleX(0); will-change: transform; background: linear-gradient(90deg, var(--acc), var(--honey)); }
+.top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 50; padding-top: 12px; }
+.top .wrap { max-width: calc(var(--wrap) + 24px); }
+.capsule { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 64px; padding: 8px 8px 8px 14px; border-radius: 999px; border: 1px solid transparent; transition: background-color .6s var(--ease), border-color .6s var(--ease), box-shadow .6s var(--ease); }
+.top.scrolled .capsule { background: rgba(255, 250, 243, .96); border-color: var(--line); box-shadow: 0 16px 36px -20px rgba(90, 50, 20, .4); }
+@media (hover: hover) and (min-width: 761px) { .top.scrolled .capsule { background: rgba(255, 250, 243, .78); backdrop-filter: blur(14px) saturate(1.2); -webkit-backdrop-filter: blur(14px) saturate(1.2); } }
+.brand { display: flex; align-items: center; gap: 12px; text-decoration: none; min-width: 0; }
+.msm { flex: none; display: grid; place-items: center; height: 34px; padding: 0 10px; border-radius: 7px; background: linear-gradient(180deg, var(--honey-2), var(--honey)); color: var(--cocoa); font: 900 1.02rem/1 var(--font-plate); letter-spacing: .08em; box-shadow: inset 0 0 0 1.5px rgba(58,38,24,.5), 0 6px 14px -4px rgba(217, 140, 40, .45); transform: rotate(-3deg); transition: transform .6s var(--ease); }
+.brand:hover .msm { transform: rotate(2deg) scale(1.05); }
+.brand b { font-family: var(--font-display); font-weight: 700; font-size: 1.12rem; letter-spacing: -.01em; white-space: nowrap; }
+.nav { display: flex; gap: 4px; }
+.nav a { padding: 8px 14px; border-radius: 999px; color: var(--muted); font-size: .9375rem; font-weight: 600; text-decoration: none; transition: color .25s, background-color .25s; }
+.nav a:hover { color: var(--ink); background: var(--acc-soft); }
+@media (max-width: 900px) { .nav { display: none; } }
+@media (max-width: 420px) { .brand b { font-size: 1rem; } .top .btn .t { display: none; } .top .btn { padding-inline: 12px; } }
+
+/* ---------- hero ---------- */
+.hero { position: relative; padding-block: clamp(28px, 5vw, 64px) clamp(36px, 5vw, 72px); }
+.hero::before { content: ""; position: absolute; inset: -140px 0 0; z-index: -1; pointer-events: none;
+  background: radial-gradient(620px 420px at 50% 260px, rgba(242, 178, 74, .28), transparent 70%), radial-gradient(360px 320px at 8% 160px, rgba(217, 100, 58, .1), transparent 70%); }
+.hero .wrap { display: grid; justify-items: center; text-align: center; }
+.hero-copy { display: grid; gap: 22px; min-width: 0; max-width: 860px; justify-items: center; }
+.hero .sub { margin-inline: auto; }
+.hero .cta-row { justify-items: center; }
+.hero .btns, .hero .micro { justify-content: center; }
+.urgent { display: inline-flex; align-items: center; gap: 10px; width: fit-content; max-width: 100%; padding: 7px 14px 7px 10px; border-radius: 999px; background: #FBE1D9; border: 1px solid #EDA894; color: #A3301A; font-size: var(--step--1); font-weight: 700; }
+.urgent i { position: relative; flex: none; width: 8px; height: 8px; border-radius: 50%; background: #D9372A; }
+.urgent i::after { content: ""; position: absolute; inset: 0; border-radius: 50%; background: #D9372A; opacity: 0; }
+.motion .urgent i::after { animation: ping 2s ease-out infinite; }
+@keyframes ping { 0% { transform: scale(1); opacity: .6; } 80%, 100% { transform: scale(3); opacity: 0; } }
+.motto { font-size: .8125rem; font-weight: 700; letter-spacing: .2em; text-transform: uppercase; color: var(--muted); }
+.motto b { color: var(--acc); }
+.hero h1 .w { display: inline-block; }
+.hero h1 em { font-style: italic; color: var(--acc); }
+.motion .hero h1 .w { opacity: 0; transform: translateY(.5em) rotate(2deg); filter: blur(8px); animation: wordIn 1.1s var(--ease-soft) forwards; animation-delay: calc(var(--wi) * 70ms + 150ms); }
+@keyframes wordIn { to { opacity: 1; transform: none; filter: none; } }
+.motion .hero-copy > :not(h1) { animation: up 1.1s var(--ease-soft) both; animation-delay: calc(var(--d, 0) * 110ms + 250ms); }
+@keyframes up { from { opacity: 0; transform: translate3d(0, 18px, 0); } }
+.hero .sub { font-size: clamp(1.0625rem, 1rem + .35vw, 1.2rem); }
+.cta-row { display: grid; gap: 14px; justify-items: start; }
+.btns { display: flex; flex-wrap: wrap; gap: 12px; }
+
+/* illustrated scene */
+.scene { position: relative; min-width: 0; }
+.scene > svg { width: 100%; height: auto; border-radius: 18px; }
+.motion .scene .dashes { animation: road 1.1s linear infinite; }
+@keyframes road { to { transform: translateX(-88px); } }
+.motion .scene .wheel-spin { transform-box: fill-box; transform-origin: center; animation: spin .9s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.motion .scene .bob { animation: bob 1.6s ease-in-out infinite; }
+@keyframes bob { 50% { transform: translateY(-2px); } }
+.motion .scene .c1 { animation: drift 40s linear infinite; }
+.motion .scene .c2 { animation: drift 56s linear infinite; }
+@keyframes drift { to { transform: translateX(-760px); } }
+.motion .scene .tree { animation: pass 7s linear infinite; }
+.motion .scene .tree.t2 { animation-duration: 9s; animation-delay: -4s; }
+@keyframes pass { from { transform: translateX(240px); } to { transform: translateX(-640px); } }
+
+/* ---------- meet ---------- */
+.meet { display: grid; grid-template-columns: .9fr 1.1fr; gap: clamp(24px, 4vw, 48px); align-items: center; padding: clamp(18px, 2.5vw, 26px); }
+@media (max-width: 760px) { .meet { grid-template-columns: 1fr; } }
+.media { position: relative; min-width: 0; }
+.float { position: absolute; left: 14px; top: 14px; z-index: 3; display: flex; align-items: center; gap: 12px; padding: 11px 16px; border-radius: 16px; background: rgba(255, 251, 245, .97); border: 1px solid var(--line); box-shadow: var(--shadow); font-size: var(--step--1); color: var(--muted); }
+.float { text-decoration: none; transition: transform .4s var(--ease), box-shadow .4s; }
+.float:hover { transform: translateY(-2px); }
+.float b { font: 700 1.25rem/1 var(--font-display); color: var(--ink); }
+.float .stars { color: var(--star); letter-spacing: 1px; }
+@media (max-width: 520px) { .float { left: 10px; top: 10px; padding: 8px 12px; gap: 8px; } .float b { font-size: 1.1rem; } }
+.meet-copy { display: grid; gap: 16px; min-width: 0; padding-block: 8px; }
+.meet-copy p { color: var(--muted); }
+.creds { display: flex; flex-wrap: wrap; gap: 8px; }
+.creds span { display: inline-flex; align-items: center; gap: 8px; padding: 8px 14px; border-radius: 999px; background: var(--bg); border: 1px solid var(--line-hi); color: var(--ink); font-size: .875rem; font-weight: 600; }
+.creds svg { width: 16px; height: 16px; color: var(--sage); }
+.verify { color: var(--acc); font-size: .9375rem; font-weight: 700; text-decoration: none; display: inline-flex; gap: 6px; align-items: center; width: fit-content; }
+.verify:hover { text-decoration: underline; text-underline-offset: 3px; }
+.meet-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 4px; }
+@media (max-width: 560px) { .meet-stats { grid-template-columns: 1fr; gap: 8px; } .stat { grid-template-columns: 7.6rem 1fr; align-items: center; gap: 12px; padding: 12px 16px; } }
+.stat { padding: 16px 18px; display: grid; gap: 6px; min-width: 0; border-radius: 16px; background: var(--bg); border: 1px solid var(--line); }
+.stat strong { font: 700 clamp(1.8rem, 1.45rem + 1.2vw, 2.4rem)/1 var(--font-display); letter-spacing: -.02em; font-variant-numeric: tabular-nums; color: var(--acc); }
+.stat > span { color: var(--muted); font-size: var(--step--1); }
+
+/* ---------- courses ---------- */
+.plans { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; align-items: stretch; }
+@media (max-width: 920px) { .plans { grid-template-columns: 1fr; max-width: 520px; } }
+.plan { display: flex; flex-direction: column; gap: 16px; padding: 32px 28px 28px; min-width: 0; }
+.plan .for { display: block; font-size: .75rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }
+.plan h3 { font-size: 1.75rem; font-style: italic; letter-spacing: -.02em; }
+.plan .icon { width: 52px; height: 52px; border-radius: 16px; display: grid; place-items: center; background: var(--acc-soft); color: var(--acc); }
+.plan .icon svg { width: 26px; height: 26px; }
+.price { display: grid; gap: 8px; padding-bottom: 18px; border-bottom: 1px dashed var(--line-hi); }
+.price .amt { display: flex; align-items: baseline; gap: 8px; }
+.price b { font: 700 2.5rem/1 var(--font-display); letter-spacing: -.02em; }
+.price .amt span { color: var(--muted); font-size: .9375rem; }
+.price small { color: var(--acc-hover); font-size: .875rem; font-weight: 600; }
+/* full price list */
+.pricelist { margin-top: clamp(28px, 4vw, 40px); padding: clamp(20px, 3vw, 30px) clamp(18px, 3vw, 34px) clamp(8px, 1.5vw, 14px); }
+.pricelist h3 { font-size: 1.3rem; margin-bottom: 6px; }
+.pricelist > p { color: var(--muted); font-size: .9375rem; }
+.prow { display: grid; grid-template-columns: 1fr auto auto; align-items: center; gap: clamp(12px, 2vw, 24px); padding: 16px 0; border-bottom: 1px dashed var(--line-hi); }
+.prow:last-child { border-bottom: 0; }
+.prow b { display: block; font-weight: 700; color: var(--ink); }
+.prow small { display: block; color: var(--muted); font-size: .875rem; }
+.prow .cost { font: 700 1.5rem/1 var(--font-display); letter-spacing: -.01em; text-align: right; }
+.prow .cost em { display: block; font: 700 .7rem/1.4 var(--font-body); font-style: normal; letter-spacing: .08em; text-transform: uppercase; color: var(--sage); margin-top: 4px; }
+.book { display: inline-flex; align-items: center; gap: 7px; padding: 9px 15px; border-radius: 999px; border: 1.5px solid var(--acc); color: var(--acc); font-weight: 700; font-size: .875rem; text-decoration: none; white-space: nowrap; transition: background-color .3s, color .3s; }
+.book svg { width: 16px; height: 16px; }
+.book:hover, .book:focus-visible { background: var(--acc); color: var(--acc-ink); }
+@media (max-width: 520px) { .prow { grid-template-columns: 1fr auto; row-gap: 10px; } .prow > div:first-child { grid-row: span 2; } .prow .book { justify-self: end; padding: 7px 13px; } }
+.plan > p { color: var(--muted); }
+.plan ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.plan li { display: grid; grid-template-columns: 20px 1fr; gap: 10px; font-size: .9688rem; }
+.plan li svg { width: 18px; height: 18px; margin-top: 4px; color: var(--sage); }
+.plan .btn { margin-top: auto; width: 100%; }
+.plan.pop { background: linear-gradient(180deg, #FFF0DC, var(--card) 45%); border: 2px solid var(--acc); box-shadow: 0 30px 60px -30px rgba(217, 100, 58, .45); }
+@media (min-width: 921px) { .plan.pop { transform: translateY(-12px); } }
+.badge { position: absolute; top: -14px; left: 26px; padding: 5px 12px; border-radius: 999px; background: var(--acc); color: var(--acc-ink); font-size: .75rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; box-shadow: 0 8px 18px -6px rgba(217,100,58,.6); }
+.chips { margin-top: 26px; display: flex; flex-wrap: wrap; gap: 10px; }
+.chips span { display: inline-flex; align-items: center; gap: 8px; padding: 9px 16px; border-radius: 999px; background: var(--card); border: 1px solid var(--line); color: var(--ink); font-size: .9375rem; transition: border-color .4s, transform .4s var(--ease); }
+.chips span:hover { border-color: var(--line-hi); transform: translateY(-2px); }
+.chips svg { width: 18px; height: 18px; color: var(--acc); }
+
+/* ---------- test centres ---------- */
+.centres { display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px; }
+@media (max-width: 1080px) { .centres { grid-template-columns: repeat(6, 1fr); } .centre { grid-column: span 2; } .centre:nth-child(4) { grid-column: 2 / span 2; } }
+@media (max-width: 760px) { .centres { grid-template-columns: repeat(2, 1fr); } .centre, .centre:nth-child(4) { grid-column: auto; } .centre:last-child { grid-column: 1 / -1; } }
+@media (max-width: 520px) { .centres { grid-template-columns: 1fr; } }
+.centre { display: grid; grid-template-rows: auto 1fr; min-width: 0; }
+.plate { position: relative; overflow: hidden; margin: 14px 14px 0; padding: 10px 12px; border-radius: 9px; background: linear-gradient(180deg, var(--honey-2), var(--honey)); color: var(--cocoa); text-align: center; font: 900 1rem/1.1 var(--font-plate); letter-spacing: .06em; text-transform: uppercase; box-shadow: inset 0 0 0 2px rgba(58,38,24,.45), 0 10px 20px -12px rgba(217, 140, 40, .7); transform: translateZ(30px); }
+.plate::after { content: ""; position: absolute; inset: 0; background: linear-gradient(115deg, transparent 35%, rgba(255,255,255,.6) 50%, transparent 65%); transform: translateX(-130%); transition: transform .9s var(--ease); }
+.centre:hover .plate::after { transform: translateX(130%); }
+.centre p { padding: 16px 20px 22px; color: var(--muted); font-size: .9375rem; transform: translateZ(16px); }
+.centre p b { display: block; color: var(--ink); font-weight: 700; margin-bottom: 4px; }
+
+/* ---------- reviews ---------- */
+.rev-top { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 18px; margin-bottom: clamp(30px, 4vw, 44px); }
+.rev-top .head { margin-bottom: 0; }
+.gsum { text-decoration: none; color: inherit; transition: transform .4s var(--ease); }
+.gsum:hover { transform: translateY(-2px); }
+.gsum { display: flex; align-items: center; gap: 12px; padding: 12px 18px; border-radius: 16px; }
+.gsum svg { width: 30px; height: 30px; flex: none; }
+.gsum b { font: 700 1.5rem/1 var(--font-display); }
+.gsum .stars { color: var(--star); letter-spacing: 1px; }
+.gsum small { display: block; color: var(--muted); }
+.reviews { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; margin-bottom: 18px; }
+.reviews:has(> :only-child) { grid-template-columns: 1fr; max-width: 720px; }
+.review q { display: -webkit-box; -webkit-line-clamp: 7; -webkit-box-orient: vertical; overflow: hidden; }
+.review .by a { color: var(--acc); font-weight: 700; text-decoration: none; }
+.review .by a:hover { text-decoration: underline; }
+.review .av { display: grid; place-items: center; color: #fff; font-weight: 700; }
+.g-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 22px; }
+.btn-review { background: linear-gradient(180deg, var(--honey-2), var(--honey)); color: var(--cocoa); box-shadow: 0 12px 26px -10px rgba(217, 140, 40, .7), inset 0 0 0 1.5px rgba(58, 38, 24, .25); }
+.btn-review:hover { box-shadow: 0 16px 30px -10px rgba(217, 140, 40, .85), inset 0 0 0 1.5px rgba(58, 38, 24, .4); }
+.btn-review .star { display: inline-grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; background: var(--cocoa); color: var(--honey); font-size: .85rem; }
+@media (max-width: 520px) { .btn-review { width: 100%; } .btn-review .long { display: none; } }
+@media (max-width: 760px) { .reviews { grid-template-columns: 1fr; } }
+.review { margin: 0; padding: 30px; display: grid; gap: 16px; overflow: hidden; }
+.review .qm { position: absolute; right: 22px; top: -22px; font: 700 9rem/1 var(--font-display); color: rgba(242, 178, 74, .3); pointer-events: none; }
+.review .stars { color: var(--star); letter-spacing: 3px; }
+.review q { font: italic 600 1.2rem/1.5 var(--font-display); color: var(--ink); quotes: "\201C" "\201D"; }
+.review .by { display: flex; align-items: center; gap: 12px; }
+.review .av { width: 38px; height: 38px; border-radius: 50%; background: linear-gradient(135deg, var(--honey-2), var(--acc)); }
+.review small { color: var(--acc); font-weight: 700; }
+.passes-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; margin: clamp(36px, 5vw, 56px) 0 16px; }
+.passes-head h3 { font-size: 1.3rem; }
+.passes-head span { color: var(--muted); font-size: .875rem; }
+.swipe:not([hidden]) { display: inline-flex; align-items: center; gap: 8px; }
+.pnav { display: none; width: 40px; height: 40px; border-radius: 50%; border: 1px solid var(--line-hi); background: var(--card); color: var(--acc); font: 700 1.1rem/1 var(--font-body); cursor: pointer; transition: background-color .3s, color .3s; }
+.pnav:hover { background: var(--acc); color: var(--acc-ink); }
+@media (hover: hover) and (pointer: fine) { .swipe { font-size: 0 !important; } .pnav { display: inline-grid; place-items: center; } }
+.passes { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(220px, 1fr); gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 8px; scrollbar-width: thin; scrollbar-color: #E2CDB2 transparent; -webkit-overflow-scrolling: touch; }
+.pass { margin: 0; scroll-snap-align: start; border-radius: 18px; overflow: hidden; background: var(--card); border: 1px solid var(--line); }
+.pass .pic { aspect-ratio: 4 / 5; display: grid; place-items: center; background: linear-gradient(160deg, #F8E6CF, #F1D7B6); }
+.pass .pic svg { width: 34px; height: 34px; color: var(--acc); }
+.pass img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; background: #F1D7B6; }
+.pass p { padding: 12px 14px; font-size: .875rem; color: var(--muted); }
+.pass p b { display: block; color: var(--ink); }
+
+/* ---------- urgency (cocoa block) ---------- */
+.push { position: relative; overflow: hidden; border-radius: 32px; padding: clamp(32px, 5.5vw, 64px); background: radial-gradient(90% 120% at 0% 0%, #5A3A22, var(--cocoa) 60%); color: #FBEFE0; display: grid; grid-template-columns: 1fr 1fr; gap: clamp(28px, 4vw, 56px); align-items: center; box-shadow: 0 50px 100px -50px rgba(58, 38, 24, .7); }
+.push::before { content: ""; position: absolute; right: -80px; bottom: -120px; width: 360px; height: 360px; border-radius: 50%; background: radial-gradient(closest-side, rgba(242,178,74,.25), transparent); pointer-events: none; }
+@media (max-width: 860px) { .push { grid-template-columns: 1fr; } }
+.push .head { position: relative; margin-bottom: 0; }
+.push .kicker { color: var(--honey); } .push .kicker::before { background: var(--honey); }
+.push .hl { color: var(--honey); }
+.push .head p { color: #E3CDB6; }
+.steps { position: relative; list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; counter-reset: s; }
+.steps::before { content: ""; position: absolute; left: 36px; top: 36px; bottom: 36px; width: 2px; background: linear-gradient(180deg, var(--honey), rgba(242,178,74,.1)); transform-origin: top; }
+.motion .steps::before { transition: transform 1.4s var(--ease-soft) .3s; }
+.motion .rv:not(.in) .steps::before { transform: scaleY(0); }
+.steps li { position: relative; counter-increment: s; display: grid; grid-template-columns: 40px 1fr; gap: 14px; align-items: start; padding: 16px; border-radius: 16px; background: rgba(255, 240, 220, .06); border: 1px solid rgba(242, 178, 74, .2); transition: border-color .4s, transform .5s var(--ease); }
+.steps li:hover { border-color: rgba(242, 178, 74, .55); transform: translateX(4px); }
+.steps li::before { content: counter(s); width: 40px; height: 40px; border-radius: 50%; display: grid; place-items: center; background: linear-gradient(180deg, var(--honey-2), var(--honey)); color: var(--cocoa); font: 700 1.15rem var(--font-display); }
+.steps b { display: block; }
+.steps span { color: #D9C2AA; font-size: .9375rem; }
+.push .cta-row { margin-top: 10px; }
+
+/* ---------- faq ---------- */
+.faq { display: grid; gap: 10px; max-width: 760px; }
+.faq details { border-radius: 18px; interpolate-size: allow-keywords; }
+.faq details::details-content { height: 0; overflow: hidden; opacity: 0; transition: height .5s var(--ease), opacity .4s, content-visibility .5s allow-discrete; }
+.faq details[open]::details-content { height: auto; opacity: 1; }
+.faq summary { position: relative; z-index: 3; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 16px; min-height: 60px; padding: 18px 22px; font-weight: 700; font-size: 1.0625rem; }
+.faq summary::-webkit-details-marker { display: none; }
+.faq .pm { position: relative; flex: none; width: 28px; height: 28px; border-radius: 50%; background: var(--acc-soft); border: 1px solid rgba(217,100,58,.3); transition: transform .5s var(--ease), background-color .3s; }
+.faq .pm::before, .faq .pm::after { content: ""; position: absolute; left: 50%; top: 50%; width: 11px; height: 2px; border-radius: 1px; background: var(--acc); transform: translate(-50%, -50%); transition: transform .5s var(--ease); }
+.faq .pm::after { transform: translate(-50%, -50%) rotate(90deg); }
+.faq details[open] .pm { transform: rotate(180deg); background: rgba(217,100,58,.2); }
+.faq details[open] .pm::after { transform: translate(-50%, -50%) rotate(0deg); }
+.faq p { position: relative; z-index: 3; padding: 0 22px 20px; color: var(--muted); }
+
+/* ---------- final ---------- */
+.final { position: relative; text-align: center; display: grid; justify-items: center; gap: 20px; }
+.final::before { content: ""; position: absolute; left: 50%; top: 40%; width: min(620px, 90%); height: 320px; transform: translate(-50%, -50%); background: radial-gradient(closest-side, rgba(242, 178, 74, .3), transparent); z-index: -1; pointer-events: none; }
+.final .sub { margin-inline: auto; }
+.final .micro { justify-content: center; }
+.lplate { flex: none; width: 56px; height: 56px; border-radius: 10px; background: #FFFFFF; display: grid; place-items: center; font: 900 38px/1 var(--font-plate); color: #C8102E; transform: rotate(-4deg); box-shadow: 0 10px 24px -8px rgba(90,50,20,.4), inset 0 0 0 1px rgba(0,0,0,.06); }
+.motion .final .lplate { animation: wobble 5s ease-in-out infinite; }
+@keyframes wobble { 50% { transform: rotate(5deg) translateY(-4px); } }
+.areas { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; max-width: 720px; margin: 8px auto 0; padding: 0; list-style: none; }
+.areas li { padding: 6px 12px; border-radius: 999px; border: 1px solid var(--line-hi); color: var(--muted); font-size: .8125rem; background: var(--card); }
+footer { padding-block: 28px 110px; border-top: 1px solid var(--line); color: var(--muted); font-size: var(--step--1); }
+footer .wrap { display: flex; flex-wrap: wrap; gap: 10px 28px; justify-content: space-between; }
+
+/* ---------- skip link ---------- */
+.skip { position: absolute; left: 12px; top: -60px; z-index: 70; padding: 10px 16px; border-radius: 10px; background: var(--ink); color: var(--bg); font-weight: 700; text-decoration: none; }
+.skip:focus { top: 12px; }
+
+/* ---------- floating CTA ---------- */
+.bar { position: fixed; left: 12px; right: 12px; bottom: calc(12px + env(safe-area-inset-bottom, 0px)); z-index: 40; padding: 8px; border-radius: 999px; background: rgba(255, 250, 243, .97); border: 1px solid var(--line); box-shadow: 0 16px 32px -14px rgba(90, 50, 20, .5); display: none; transition: transform .6s var(--ease), opacity .4s; }
+.bar .btn { width: 100%; }
+.bar.hide { transform: translateY(140%); opacity: 0; }
+@media (max-width: 760px) { .bar { display: block; } }
+.fab { position: fixed; right: 24px; bottom: 24px; z-index: 40; width: 62px; height: 62px; border-radius: 50%; display: grid; place-items: center; background: var(--acc); color: var(--acc-ink); box-shadow: 0 14px 30px -8px rgba(196, 83, 42, .6); transition: transform .6s var(--ease), opacity .4s; }
+.fab::after { content: ""; position: absolute; inset: 0; border-radius: 50%; border: 2px solid var(--acc); opacity: 0; pointer-events: none; }
+.motion .fab::after { animation: ring 3s ease-out infinite; }
+@keyframes ring { 0% { transform: scale(1); opacity: .6; } 70%, 100% { transform: scale(1.5); opacity: 0; } }
+.fab:hover { transform: scale(1.08); }
+.fab svg { width: 30px; height: 30px; }
+.fab.hide { transform: translateY(130px); opacity: 0; pointer-events: none; }
+@media (max-width: 760px) { .fab { display: none; } }
+
+@supports (animation-timeline: scroll()) { .progress { animation: grow linear both; animation-timeline: scroll(root); } @keyframes grow { to { transform: scaleX(1); } } }
+.paused, .paused *, .paused *::before, .paused *::after, .paused::before, .paused::after { animation-play-state: paused !important; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition-duration: .01ms !important; }
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="progress" aria-hidden="true"></div>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="wa" viewBox="0 0 24 24"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.08.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35zM12.05 21.5h-.01a9.4 9.4 0 0 1-4.8-1.31l-.34-.2-3.57.94.95-3.48-.22-.36a9.43 9.43 0 0 1-1.45-5.02c0-5.2 4.24-9.44 9.45-9.44 2.52 0 4.89.99 6.67 2.77a9.37 9.37 0 0 1 2.76 6.68c0 5.21-4.24 9.44-9.44 9.44zm8.04-17.48A11.3 11.3 0 0 0 12.05.7C5.78.7.68 5.8.68 12.07c0 2 .52 3.96 1.52 5.68L.58 23.7l6.09-1.6a11.34 11.34 0 0 0 5.37 1.37h.01c6.27 0 11.37-5.1 11.37-11.37 0-3.04-1.18-5.9-3.33-8.05z"/></symbol>
+  <symbol id="ok" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" d="M20 6 9 17l-5-5"/></symbol>
+  <symbol id="car" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 17H3v-5l2.2-5.2A2 2 0 0 1 7 5.5h10a2 2 0 0 1 1.8 1.3L21 12v5h-2"/><path d="M3 12h18"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/><path d="M9 17h6"/></g></symbol>
+  <symbol id="pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></g></symbol>
+  <symbol id="cam" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h4l2-3h6l2 3h4v11H3z"/><circle cx="12" cy="13" r="3.5"/></g></symbol>
+  <symbol id="clock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></g></symbol>
+  <symbol id="key" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="15" r="4"/><path d="M11 12l9-9M17 6l3 3M15 8l2 2"/></g></symbol>
+  <symbol id="flag" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 21V4"/><path d="M5 4h12l-2 4 2 4H5"/></g></symbol>
+  <symbol id="road" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3 3 21M17 3l4 18M12 4v3M12 11v3M12 18v2"/></g></symbol>
+</svg>
+
+<header class="top">
+  <div class="wrap">
+    <div class="capsule">
+      <a class="brand" href="#top" aria-label="MSM Driving, back to top"><span class="msm" aria-hidden="true">MSM</span><b>Driving</b></a>
+      <nav class="nav" aria-label="Sections"><a href="#courses">Courses</a><a href="#centres">Test centres</a><a href="#reviews">Reviews</a><a href="#faq">FAQ</a></nav>
+      <a class="btn btn-wa btn-sm magnetic" data-wa href="#" target="_blank" rel="noopener"><span class="lbl"><svg aria-hidden="true"><use href="#wa"/></svg><span class="t">Message me</span></span></a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+<span id="main"></span>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-copy">
+        <!-- Keep this true: change the wording if spaces open up or fill -->
+        <span class="urgent" style="--d:0"><i aria-hidden="true"></i>Limited spaces left. Be quick to secure yours.</span>
+        <span class="motto" style="--d:1"><b>M</b>irror · <b>S</b>ignal · <b>M</b>anoeuvre</span>
+        <h1 class="split">Pass first time with <em>Glasgow's test route specialist.</em></h1>
+        <p class="sub" style="--d:2">Manual lessons in a dual-control VW Golf with an instructor who knows every test route from Anniesland and Shieldhall to Baillieston, Bishopbriggs and Paisley. Calm, patient and built around your timetable.</p>
+        <div class="cta-row" style="--d:3">
+          <div class="btns">
+            <a class="btn btn-wa magnetic" data-wa href="#" target="_blank" rel="noopener"><span class="lbl"><svg aria-hidden="true"><use href="#wa"/></svg>Check my availability</span></a>
+            <a class="btn btn-ghost" href="#courses"><span class="lbl">See courses</span></a>
+          </div>
+          <div class="micro"><span><svg aria-hidden="true"><use href="#ok"/></svg>DVSA approved instructor</span><span><svg aria-hidden="true"><use href="#ok"/></svg>No forms, no booking fees</span><span><svg aria-hidden="true"><use href="#ok"/></svg>Quick reply on WhatsApp</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MEET -->
+  <section class="section" id="meet" style="padding-top:clamp(24px,4vw,48px);padding-bottom:0">
+    <div class="wrap">
+      <div class="meet glass rv">
+        <div class="media">
+          <!-- Illustrated MSM Golf on the road (pure SVG, no image files) -->
+          <div class="scene">
+            <svg viewBox="0 0 640 520" role="img" aria-label="Illustration of the grey MSM Driving VW Golf with its roof sign, driving along a road">
+          <defs>
+            <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFD7AE"/><stop offset=".7" stop-color="#FCEAD4"/><stop offset="1" stop-color="#FBF1E4"/></linearGradient>
+            <linearGradient id="paint" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6E747D"/><stop offset=".55" stop-color="#4E535B"/><stop offset="1" stop-color="#3B3F46"/></linearGradient>
+            <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#D3E2E8"/><stop offset="1" stop-color="#93AAB6"/></linearGradient>
+            <clipPath id="frame"><rect width="640" height="520"/></clipPath>
+            <g id="rim"><circle r="40" fill="#241D19"/><circle r="26" fill="#D4CCC2"/><g fill="#958C83"><rect x="-3" y="-24" width="6" height="22" rx="3"/><rect x="-3" y="-24" width="6" height="22" rx="3" transform="rotate(72)"/><rect x="-3" y="-24" width="6" height="22" rx="3" transform="rotate(144)"/><rect x="-3" y="-24" width="6" height="22" rx="3" transform="rotate(216)"/><rect x="-3" y="-24" width="6" height="22" rx="3" transform="rotate(288)"/></g><circle r="6" fill="#5B544D"/></g>
+          </defs>
+          <g clip-path="url(#frame)">
+            <rect width="640" height="520" fill="url(#sky)"/>
+            <circle cx="470" cy="150" r="110" fill="#FFB86B" opacity=".2"/>
+            <circle cx="470" cy="150" r="70" fill="#FFB36B"/>
+            <g fill="#FFF8EF">
+              <g class="c1"><ellipse cx="200" cy="110" rx="48" ry="18"/><ellipse cx="228" cy="96" rx="30" ry="22"/><ellipse cx="180" cy="100" rx="22" ry="16"/><ellipse cx="960" cy="90" rx="44" ry="16"/><ellipse cx="984" cy="78" rx="26" ry="18"/></g>
+              <g class="c2" opacity=".9"><ellipse cx="560" cy="66" rx="38" ry="14"/><ellipse cx="580" cy="56" rx="22" ry="16"/><ellipse cx="1300" cy="70" rx="38" ry="14"/></g>
+            </g>
+            <path d="M0 300 C 90 250 170 240 260 270 S 430 230 520 250 S 620 270 640 262 V 400 H0Z" fill="#EBC195"/>
+            <path d="M0 330 C 110 290 220 300 320 320 S 520 290 640 310 V 400 H0Z" fill="#D2A877"/>
+            <g class="tree"><rect x="476" y="292" width="8" height="40" rx="3" fill="#7A5235"/><circle cx="480" cy="284" r="26" fill="#8FA672"/><circle cx="466" cy="298" r="16" fill="#7E9564"/></g>
+            <g class="tree t2"><rect x="566" y="300" width="8" height="34" rx="3" fill="#7A5235"/><circle cx="570" cy="290" r="22" fill="#A3B783"/></g>
+            <rect x="0" y="372" width="640" height="148" fill="#4C3C33"/>
+            <rect x="0" y="372" width="640" height="8" fill="#5F4B40"/>
+            <g class="dashes" fill="#F7D79A"><rect x="0" y="446" width="44" height="8" rx="4"/><rect x="88" y="446" width="44" height="8" rx="4"/><rect x="176" y="446" width="44" height="8" rx="4"/><rect x="264" y="446" width="44" height="8" rx="4"/><rect x="352" y="446" width="44" height="8" rx="4"/><rect x="440" y="446" width="44" height="8" rx="4"/><rect x="528" y="446" width="44" height="8" rx="4"/><rect x="616" y="446" width="44" height="8" rx="4"/><rect x="704" y="446" width="44" height="8" rx="4"/></g>
+            <g transform="translate(46 186)">
+              <ellipse cx="287" cy="228" rx="250" ry="13" fill="#24180F" opacity=".35"/>
+              <g class="bob">
+                <path d="M178 58 L190 30 H290 L302 58 Z" fill="#2B2420"/>
+                <rect x="198" y="35" width="40" height="18" rx="3" fill="#F2B24A"/>
+                <text x="218" y="49" text-anchor="middle" font-family="Montserrat, Arial Black, sans-serif" font-weight="900" font-size="13" fill="#1A1410">MSM</text>
+                <rect x="246" y="34" width="20" height="20" rx="3" fill="#FFFFFF"/>
+                <path d="M252 38 v12 h9" stroke="#D2232A" stroke-width="3.5" fill="none"/>
+                <rect x="272" y="36" width="12" height="16" rx="2" fill="#F2B24A" opacity=".85"/>
+                <path d="M-48 0 A48 48 0 0 1 48 0 Z" transform="translate(140 203)" fill="#2A2421"/>
+                <path d="M-48 0 A48 48 0 0 1 48 0 Z" transform="translate(410 203)" fill="#2A2421"/>
+                <path d="M44 182 L44 140 C44 126 47 114 54 105 L86 73 C93 66 104 61 120 60 L290 56 C310 56 322 61 333 69 L394 114 C434 119 480 126 508 134 C523 138 530 149 530 163 L530 186 C530 196 522 203 510 203 L458 203 A48 48 0 0 0 362 203 L188 203 A48 48 0 0 0 92 203 L56 203 C50 203 44 196 44 182 Z" fill="url(#paint)"/>
+                <path d="M114 74 C118 71 124 70 132 70 L156 69 L152 112 L96 112 Z" fill="url(#glass)"/>
+                <path d="M172 69 L226 68 L226 114 L166 114 Z" fill="url(#glass)"/>
+                <path d="M238 68 L288 67 C302 67 312 71 320 78 L364 114 L238 114 Z" fill="url(#glass)"/>
+                <path d="M130 72 L140 72 L118 112 L108 112 Z M192 70 L202 70 L182 112 L172 112 Z M262 69 L274 69 L252 112 L240 112 Z" fill="#FFFFFF" opacity=".4"/>
+                <path d="M52 130 C200 124 360 124 516 140" stroke="#868C95" stroke-width="2" fill="none"/>
+                <path d="M232 114 V200 M164 114 C162 150 166 180 176 200 M364 116 C356 150 356 180 360 200" stroke="#33373D" stroke-width="2" fill="none"/>
+                <rect x="192" y="134" width="22" height="5" rx="2.5" fill="#2E3237"/>
+                <rect x="296" y="134" width="22" height="5" rx="2.5" fill="#2E3237"/>
+                <path d="M352 104 C352 96 362 94 370 96 L376 110 L358 112 C354 112 352 108 352 104 Z" fill="#454A52"/>
+                <path d="M492 140 C506 142 520 146 526 152 L524 160 L500 154 C494 152 490 146 492 140 Z" fill="#FFE7B0"/>
+                <path d="M46 118 L56 106 L70 110 L70 124 L46 126 Z" fill="#D2232A"/>
+                <path d="M44 176 H70 M500 178 H530" stroke="#2E3237" stroke-width="5" stroke-linecap="round"/>
+                <rect x="196" y="196" width="156" height="7" rx="3" fill="#2E3237"/>
+              </g>
+              <g transform="translate(140 203)"><g class="wheel-spin"><use href="#rim"/></g></g>
+              <g transform="translate(410 203)"><g class="wheel-spin"><use href="#rim"/></g></g>
+            </g>
+          </g>
+        </svg>
+          </div>
+          <a class="float" href="https://share.google/RRHbuknUN8fWuWOs1" target="_blank" rel="noopener"><span class="stars" data-g="stars" aria-hidden="true">★★★★★</span><div><b data-g="rating" hidden></b> <span data-g="label">Reviews on Google</span></div></a>
+        </div>
+        <div class="meet-copy">
+          <span class="kicker">Meet your instructor</span>
+          <h2>Hi, I'm <span class="hl">Mubarak.</span></h2>
+          <p>I've been teaching in Glasgow for over 10 years, and most of my pupils are students fitting lessons around uni. I keep things calm and clear, I explain the "why" behind every skill, and I only put you forward for your test when you're ready to pass.</p>
+          <div class="creds">
+            <span><svg aria-hidden="true"><use href="#ok"/></svg>DVSA Approved Driving Instructor</span>
+            <span><svg aria-hidden="true"><use href="#ok"/></svg>Fully insured</span>
+            <span><svg aria-hidden="true"><use href="#ok"/></svg>Dual-control car</span>
+          </div>
+          <a class="verify" href="https://www.gov.uk/find-driving-schools-and-lessons" target="_blank" rel="noopener">Check approved instructors on GOV.UK <span aria-hidden="true">→</span></a>
+          <!-- Numbers count up on scroll from data-to -->
+          <div class="meet-stats">
+            <div class="stat"><strong data-to="90" data-suffix="%">90%</strong><span>first-time pass rate</span></div>
+            <div class="stat"><strong data-to="5000" data-suffix="+">5,000+</strong><span>pupils passed</span></div>
+            <div class="stat"><strong data-to="10" data-suffix="+">10+</strong><span>years teaching</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COURSES: each Book button opens WhatsApp with a message for that course (edit the messages at the bottom of the page) -->
+  <section class="section" id="courses">
+    <div class="wrap">
+      <div class="head rv">
+        <span class="kicker">Courses</span>
+        <h2>Pick your starting point. <span class="hl">Book in one tap.</span></h2>
+        <p class="sub">Choose the course that fits where you are now. Tap Book and WhatsApp opens with your message ready to send.</p>
+      </div>
+      <div class="plans">
+        <article class="plan glass rv">
+          <span class="icon"><svg aria-hidden="true"><use href="#key"/></svg></span>
+          <div><span class="for">Complete beginners</span><h3>First Gear</h3></div>
+          <div class="price"><div class="amt"><b>£45</b><span>per hour</span></div><small>Or £430 for a 10-hour block and save £20</small></div>
+          <p>Never driven before? We start on quiet roads and build your skills step by step, from moving off to your first roundabout.</p>
+          <ul>
+            <li><svg aria-hidden="true"><use href="#ok"/></svg>Pick-up from home, halls or campus</li>
+            <li><svg aria-hidden="true"><use href="#ok"/></svg>Clutch control, junctions and roundabouts</li>
+            <li><svg aria-hidden="true"><use href="#ok"/></svg>A clear plan for every lesson</li>
+            <li><svg aria-hidden="true"><use href="#ok"/></svg>Calm, patient teaching at your pace</li>
+          </ul>
+          <a class="btn btn-wa magnetic" data-wa="first" href="#" target="_blank" rel="noopener"><span class="lbl"><svg aria-hidden="true"><use href="#wa"/></svg>Book First Gear</span></a>
+        </article>
+        <article class="plan pop glass rv" style="--i:1">
+          <span class="badge">Recommended</span>
+          <span class="icon"><svg aria-hidden="true"><use href="#flag"/></svg></span>
+          <div><span class="for">Novice drivers</span><h3>Test Ready</h3></div>
+          <div class="price"><div class="amt"><b>£430</b><span>10-hour block</span></div><small>Works out at £43 an hour. In a hurry? 20-hour intensive course £990</small></div>
+          <p>Had some lessons already? Polish your driving, fix the faults examiners look for and practise the exact routes at your test centre.</p>
+          <ul>
+            <li><svg aria-hidden="true"><use href="#ok"/></svg>Mock tests in real test conditions</li>
+            <li><svg aria-hidden="true"><use href="#ok"/></svg>Your test centre's routes, practised</li>
+            <li><svg aria-hidden="true"><use href="#ok"/></svg>Show me, tell me questions covered</li>
+            <li><svg aria-hidden="true"><use href="#ok"/></svg>Take your test in the car you learned in</li>
+          </ul>
+          <a class="btn btn-wa magnetic" data-wa="test" href="#" target="_blank" rel="noopener"><span class="lbl"><svg aria-hidden="true"><use href="#wa"/></svg>Book Test Ready</span></a>
+        </article>
+        <article class="plan glass rv" style="--i:2">
+          <span class="icon"><svg aria-hidden="true"><use href="#road"/></svg></span>
+          <div><span class="for">Refreshers</span><h3>Back on the Road</h3></div>
+          <div class="price"><div class="amt"><b>£45</b><span>per hour</span></div><small>Motorway lessons £45 an hour. Pass Plus course £350</small></div>
+          <p>Passed but not driven in a while, or lost your confidence? Get comfortable again on the roads you actually use.</p>
+          <ul>
+            <li><svg aria-hidden="true"><use href="#ok"/></svg>Motorways and dual carriageways</li>
+            <li><svg aria-hidden="true"><use href="#ok"/></svg>City centre driving and parking</li>
+            <li><svg aria-hidden="true"><use href="#ok"/></svg>Lessons built around what you need</li>
+            <li><svg aria-hidden="true"><use href="#ok"/></svg>Ideal after a long break from driving</li>
+          </ul>
+          <a class="btn btn-wa magnetic" data-wa="refresh" href="#" target="_blank" rel="noopener"><span class="lbl"><svg aria-hidden="true"><use href="#wa"/></svg>Book Back on the Road</span></a>
+        </article>
+      </div>
+      <div class="pricelist glass rv">
+        <h3>Full price list</h3>
+        <p>Tap Book next to any option and WhatsApp opens with your message ready.</p>
+        <div class="prow"><div><b>Standard lesson</b><small>1 hour</small></div><div class="cost">£45</div><a class="book" data-wa="standard" href="#" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#wa"/></svg>Book</a></div>
+        <div class="prow"><div><b>10-hour block booking</b><small>Pay for 10 hours upfront</small></div><div class="cost">£430<em>Save £20</em></div><a class="book" data-wa="block10" href="#" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#wa"/></svg>Book</a></div>
+        <div class="prow"><div><b>Intensive course</b><small>20 hours, to get you test-ready fast</small></div><div class="cost">£990</div><a class="book" data-wa="intensive" href="#" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#wa"/></svg>Book</a></div>
+        <div class="prow"><div><b>Pass Plus course</b><small>Extra training after you pass, may lower your insurance</small></div><div class="cost">£350</div><a class="book" data-wa="passplus" href="#" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#wa"/></svg>Book</a></div>
+      </div>
+      <div class="chips rv">
+        <span><svg aria-hidden="true"><use href="#car"/></svg>Manual, dual-control VW Golf</span>
+        <span><svg aria-hidden="true"><use href="#pin"/></svg>Pick-up from home, halls or campus</span>
+        <span><svg aria-hidden="true"><use href="#clock"/></svg>Evenings and weekends</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEST CENTRES -->
+  <section class="section" id="centres" style="padding-top:0">
+    <div class="wrap">
+      <div class="head rv">
+        <span class="kicker">Local knowledge</span>
+        <h2>You'll have driven your test route <span class="hl">before test day.</span></h2>
+        <p class="sub">Every centre across Glasgow and Paisley has its own traps. We practise the exact roads around yours.</p>
+      </div>
+      <div class="centres">
+        <article class="centre glass tilt rv"><div class="plate">Anniesland</div><p><b>Great Western Road</b>Multi-lane roundabouts, bus lanes and busy junctions.</p></article>
+        <article class="centre glass tilt rv" style="--i:1"><div class="plate">Shieldhall</div><p><b>Govan and the Clydeside</b>50 mph roads, dock streets and M8 slip roads.</p></article>
+        <article class="centre glass tilt rv" style="--i:2"><div class="plate">Baillieston</div><p><b>East end and the M74</b>Dual carriageways and lane discipline at big junctions.</p></article>
+        <article class="centre glass tilt rv" style="--i:3"><div class="plate">Bishopbriggs</div><p><b>Just north of the city</b>Mini roundabouts, hill starts and changing limits.</p></article>
+        <article class="centre glass tilt rv" style="--i:4"><div class="plate">Paisley</div><p><b>Renfrewshire</b>Town centre one-way streets, roundabouts and the A737.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="section" style="padding-top:0" id="reviews">
+    <div class="wrap">
+      <div class="rev-top">
+        <div class="head rv"><span class="kicker">Reviews</span><h2>Passed <span class="hl">first time.</span></h2></div>
+        <a class="gsum glass rv" style="--i:1" href="https://share.google/RRHbuknUN8fWuWOs1" target="_blank" rel="noopener">
+          <svg viewBox="0 0 48 48" aria-hidden="true"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.4-.4-3.5z"/><path fill="#FF3D00" d="m6.3 14.7 6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-8l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.4-.4-3.5z"/></svg>
+          <div><b data-g="rating" hidden></b> <span class="stars" data-g="stars" aria-hidden="true">★★★★★</span><small data-g="count">See our reviews on Google</small></div>
+        </a>
+      </div>
+      <!-- Filled automatically from Google by /api/google-reviews -->
+      <div class="reviews" data-g="reviews" hidden></div>
+      <div class="g-actions rv">
+        <a class="btn btn-review magnetic" href="https://g.page/r/CUk5tp3aWydiEBM/review" target="_blank" rel="noopener"><span class="lbl"><span class="star" aria-hidden="true">★</span><span><span class="long">Passed with MSM? </span>Leave a Google review</span></span></a>
+        <a class="verify" href="https://share.google/RRHbuknUN8fWuWOs1" target="_blank" rel="noopener">Read all reviews on Google <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="passes-head rv"><h3>Recent passes</h3><span class="swipe" hidden>Swipe for more<button type="button" class="pnav" data-dir="-1" aria-label="Previous photos">&#8592;</button><button type="button" class="pnav" data-dir="1" aria-label="More photos">&#8594;</button></span></div>
+      <!-- Pass photos: add more by copying a figure and pointing it at a new image in /images -->
+      <div class="passes rv">
+        <figure class="pass"><img src="images/pass-1.webp" alt="Saleh Mustafa holding his pass certificate beside the MSM car after passing at Paisley" width="640" height="800" loading="lazy" decoding="async"><p><b>Saleh Mustafa</b>Passed at Paisley</p></figure>
+        <figure class="pass"><img src="images/pass-2.webp" alt="Umar holding his pass certificate beside the MSM car after passing at Paisley" width="640" height="800" loading="lazy" decoding="async"><p><b>Umar</b>Passed at Paisley</p></figure>
+        <figure class="pass"><img src="images/pass-3.webp" alt="Raval holding his pass certificate beside the MSM car after passing at Shieldhall" width="640" height="800" loading="lazy" decoding="async"><p><b>Raval</b>Passed at Shieldhall</p></figure>
+        <figure class="pass"><img src="images/pass-4.webp" alt="A pupil beside the MSM car after passing at Baillieston" width="640" height="800" loading="lazy" decoding="async"><p><b>Passed at Baillieston</b>Another MSM pass</p></figure>
+        <figure class="pass"><img src="images/pass-5.webp" alt="Joseph beside the MSM car after passing at Bishopbriggs" width="640" height="800" loading="lazy" decoding="async"><p><b>Joseph</b>Passed at Bishopbriggs</p></figure>
+        <figure class="pass"><img src="images/pass-6.webp" alt="Fiaz beside the MSM car after passing at Anniesland" width="640" height="800" loading="lazy" decoding="async"><p><b>Fiaz</b>Passed at Anniesland</p></figure>
+        <figure class="pass"><img src="images/pass-7.webp" alt="A pupil beside the MSM car after passing at Paisley" width="640" height="800" loading="lazy" decoding="async"><p><b>Passed at Paisley</b>Another MSM pass</p></figure>
+        <figure class="pass"><img src="images/pass-8.webp" alt="Sami beside the MSM car after passing at Shieldhall" width="640" height="800" loading="lazy" decoding="async"><p><b>Sami</b>Passed at Shieldhall</p></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- URGENCY -->
+  <section class="section" style="padding-top:0">
+    <div class="wrap">
+      <div class="push rv">
+        <div class="head">
+          <span class="kicker">Don't leave it late</span>
+          <h2>Test waiting lists are months long. <span class="hl">Start now.</span></h2>
+          <p>Test dates are booked months ahead across the country. Start lessons now and you'll be ready when your date comes, instead of scrambling for lessons at the last minute.</p>
+          <div class="cta-row">
+            <a class="btn btn-wa magnetic" data-wa href="#" target="_blank" rel="noopener"><span class="lbl"><svg aria-hidden="true"><use href="#wa"/></svg>Grab a space</span></a>
+          </div>
+        </div>
+        <ol class="steps">
+          <li><div><b>Pick a course and tap Book</b><span>WhatsApp opens with your message ready to send.</span></div></li>
+          <li><div><b>Get your first lesson booked</b><span>I'll reply with the times I have free.</span></div></li>
+          <li><div><b>Be test-ready on time</b><span>A clear plan that gets you ready for your test date.</span></div></li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" style="padding-top:0" id="faq">
+    <div class="wrap">
+      <div class="head rv"><span class="kicker">FAQ</span><h2>Quick answers.</h2></div>
+      <div class="faq">
+        <details class="glass rv"><summary>Which course is right for me?<span class="pm" aria-hidden="true"></span></summary><p>First Gear if you've never driven, Test Ready if you've had lessons and want to get test-ready, and Back on the Road if you already have your licence. Not sure? Message me and I'll point you to the right one.</p></details>
+        <details class="glass rv" style="--i:1"><summary>How much are lessons?<span class="pm" aria-hidden="true"></span></summary><p>£45 for a 1-hour lesson. A 10-hour block is £430, which saves you £20, and the 20-hour intensive course is £990. Refresher and motorway lessons are £45 an hour, and Pass Plus is £350.</p></details>
+        <details class="glass rv" style="--i:2"><summary>Do you pick up from uni or halls?<span class="pm" aria-hidden="true"></span></summary><p>Yes. Pick-up and drop-off from home, student halls, campus or work across the areas I cover.</p></details>
+        <details class="glass rv" style="--i:3"><summary>Do you teach automatic?<span class="pm" aria-hidden="true"></span></summary><p>Manual only. A manual licence lets you drive both manual and automatic cars, so you get the most freedom once you pass.</p></details>
+        <details class="glass rv" style="--i:4"><summary>How many lessons will I need?<span class="pm" aria-hidden="true"></span></summary><p>Everyone's different. The DVSA says learners who pass take around 45 hours of lessons plus 22 hours of private practice on average. After your first lesson you'll get an honest estimate.</p></details>
+        <details class="glass rv" style="--i:5"><summary>What do I need before my first lesson?<span class="pm" aria-hidden="true"></span></summary><p>Just your provisional driving licence. You'll need to pass your theory test before you can book the practical test.</p></details>
+        <details class="glass rv" style="--i:6"><summary>Can I use your car for my test?<span class="pm" aria-hidden="true"></span></summary><p>Yes. You'll get a warm-up lesson around the test routes first, then take your test in the car you learned in.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL -->
+  <section class="section" style="padding-top:0">
+    <div class="wrap final rv">
+      <span class="lplate" aria-hidden="true">L</span>
+      <h2>Ready to lose the <span class="hl">L plates?</span></h2>
+      <p class="sub">Spaces are limited. Message now to check what's free this week.</p>
+      <a class="btn btn-wa magnetic" data-wa href="#" target="_blank" rel="noopener"><span class="lbl"><svg aria-hidden="true"><use href="#wa"/></svg>Message MSM on WhatsApp</span></a>
+      <div class="micro"><span>WhatsApp 07809 763712</span></div>
+      <!-- PLACEHOLDER: confirm the areas Mubarak covers -->
+      <ul class="areas" aria-label="Areas covered">
+        <li>West End</li><li>City Centre</li><li>Southside</li><li>Partick</li><li>Hillhead</li><li>Govan</li><li>Anniesland</li><li>Maryhill</li><li>Dennistoun</li><li>Shawlands</li><li>Baillieston</li><li>Bishopbriggs</li><li>Paisley</li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>MSM Driving · Manual driving lessons in Glasgow</span>
+    <span>DVSA Approved Driving Instructor</span>
+  </div>
+</footer>
+
+<div class="bar"><a class="btn btn-wa" data-wa href="#" target="_blank" rel="noopener"><span class="lbl"><svg aria-hidden="true"><use href="#wa"/></svg>Check my availability</span></a></div>
+<a class="fab" data-wa href="#" target="_blank" rel="noopener" aria-label="Message MSM Driving on WhatsApp"><svg aria-hidden="true"><use href="#wa"/></svg></a>
+
+<script>
+  /* ===== EDIT THESE ===== */
+  var WHATSAPP_NUMBER = "447809763712"; // international format, no + or spaces
+  var WHATSAPP_MESSAGES = {
+    // general "Message me" buttons
+    "": "Hi Mubarak! I found your website and I'd like to check your availability for driving lessons.\n\n" +
+        "Name: \n" +
+        "Area: \n" +
+        "Driven before? (yes/no): \n" +
+        "Test booked? (yes/no): ",
+    // course Book buttons
+    first: "Hi Mubarak! I'd like to book the First Gear course for complete beginners.\n\n" +
+        "Name: \n" +
+        "Area: \n" +
+        "Driven before? (yes/no): \n" +
+        "Test booked? (yes/no): ",
+    test: "Hi Mubarak! I'd like to book the Test Ready course.\n\n" +
+        "Name: \n" +
+        "Area: \n" +
+        "Driven before? (yes/no): \n" +
+        "Test booked? (yes/no): ",
+    refresh: "Hi Mubarak! I'd like to book the Back on the Road refresher course.\n\n" +
+        "Name: \n" +
+        "Area: \n" +
+        "Year I passed: \n" +
+        "What I'd like to work on: ",
+    // price list Book links
+    standard: "Hi Mubarak! I'd like to book a standard 1-hour driving lesson.\n\n" +
+        "Name: \n" +
+        "Area: \n" +
+        "Driven before? (yes/no): \n" +
+        "Test booked? (yes/no): ",
+    block10: "Hi Mubarak! I'd like to book the 10-hour block of lessons.\n\n" +
+        "Name: \n" +
+        "Area: \n" +
+        "Driven before? (yes/no): \n" +
+        "Test booked? (yes/no): ",
+    intensive: "Hi Mubarak! I'd like to book the 20-hour intensive driving course.\n\n" +
+        "Name: \n" +
+        "Area: \n" +
+        "Driven before? (yes/no): \n" +
+        "Test booked? (yes/no): ",
+    passplus: "Hi Mubarak! I'd like to book the Pass Plus course.\n\n" +
+        "Name: \n" +
+        "Area: \n" +
+        "Year I passed: "
+  };
+  /* Google rating and reviews come from /api/google-reviews (netlify/functions/google-reviews.mjs),
+     which asks Google about twice a day. If it fails, the page just links to Google. */
+  /* ====================== */
+
+  (function () {
+    var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    var finePointer = window.matchMedia && window.matchMedia("(hover: hover) and (pointer: fine)").matches;
+    if (!reduce) document.documentElement.classList.add("motion");
+
+    // WhatsApp links: data-wa="" for the general message, or a course key
+    document.querySelectorAll("[data-wa]").forEach(function (a) {
+      var msg = WHATSAPP_MESSAGES[a.getAttribute("data-wa")] || WHATSAPP_MESSAGES[""];
+      a.href = "https://wa.me/" + WHATSAPP_NUMBER + "?text=" + encodeURIComponent(msg);
+    });
+
+    // Show the swipe hint only when the pass photos overflow
+    var passes = document.querySelector(".passes"), hint = document.querySelector(".swipe");
+    if (passes && hint) { var fit = function () { hint.hidden = passes.scrollWidth <= passes.clientWidth + 2; }; fit(); window.addEventListener("resize", fit, { passive: true });
+      hint.querySelectorAll(".pnav").forEach(function (b) { b.addEventListener("click", function () {
+        var card = passes.querySelector(".pass"); var step = card ? card.offsetWidth + 12 : 240;
+        passes.scrollBy({ left: step * 2 * b.getAttribute("data-dir"), behavior: reduce ? "auto" : "smooth" }); }); }); }
+
+    // Split the hero headline into words for the staggered entrance
+    document.querySelectorAll(".split").forEach(function (h) {
+      var n = 0;
+      (function walk(node) {
+        Array.prototype.slice.call(node.childNodes).forEach(function (c) {
+          if (c.nodeType === 3) {
+            var frag = document.createDocumentFragment();
+            c.textContent.split(/(\s+)/).forEach(function (part) {
+              if (!part) return;
+              if (/^\s+$/.test(part)) { frag.appendChild(document.createTextNode(part)); return; }
+              var s = document.createElement("span"); s.className = "w"; s.style.setProperty("--wi", n++); s.textContent = part; frag.appendChild(s);
+            });
+            node.replaceChild(frag, c);
+          } else if (c.nodeType === 1) { walk(c); }
+        });
+      })(h);
+    });
+
+    // Reveal on scroll + count-up for stats with a data-to value
+    function countUp(el) {
+      var to = parseFloat(el.getAttribute("data-to")); if (isNaN(to)) return;
+      var suffix = el.getAttribute("data-suffix") || "", t0 = null, dur = 1600;
+      function step(t) { if (!t0) t0 = t; var p = Math.min(1, (t - t0) / dur), e = 1 - Math.pow(1 - p, 4);
+        el.textContent = Math.round(to * e).toLocaleString("en-GB") + suffix; if (p < 1) requestAnimationFrame(step); }
+      if (reduce) el.textContent = to + suffix; else requestAnimationFrame(step);
+    }
+    var rv = document.querySelectorAll(".rv");
+    if ("IntersectionObserver" in window) {
+      var io = new IntersectionObserver(function (es) {
+        es.forEach(function (e) {
+          if (!e.isIntersecting) return;
+          var el = e.target, i = parseFloat(el.style.getPropertyValue("--i")) || 0;
+          el.classList.add("in"); io.unobserve(el);
+          // hand the element back to its own hover transitions once it has arrived
+          setTimeout(function () { el.classList.remove("rv", "in"); }, 1300 + i * 90);
+          e.target.querySelectorAll("[data-to]").forEach(countUp);
+        });
+      }, { rootMargin: "0px 0px -8% 0px", threshold: 0.12 });
+      rv.forEach(function (el) { io.observe(el); });
+    } else { rv.forEach(function (el) { el.classList.add("in"); el.querySelectorAll("[data-to]").forEach(countUp); }); }
+
+    if (finePointer && !reduce) {
+      // Pointer effects: read the rect once on enter, write styles at most once per frame
+      function onPointer(el, apply, leave) {
+        var r = null, ev = null, queued = false;
+        el.addEventListener("pointerenter", function () { r = el.getBoundingClientRect(); });
+        el.addEventListener("pointermove", function (e) {
+          ev = e; if (!r) r = el.getBoundingClientRect();
+          if (!queued) { queued = true; requestAnimationFrame(function () { queued = false; if (ev && r) apply(ev, r); }); }
+        }, { passive: true });
+        el.addEventListener("pointerleave", function () { ev = null; r = null; if (leave) leave(); });
+        window.addEventListener("scroll", function () { r = null; }, { passive: true });
+      }
+      document.querySelectorAll(".glass").forEach(function (g) {
+        onPointer(g, function (e, r) { g.style.setProperty("--mx", (e.clientX - r.left) + "px"); g.style.setProperty("--my", (e.clientY - r.top) + "px"); });
+      });
+      document.querySelectorAll(".tilt").forEach(function (t) {
+        var max = parseFloat(t.getAttribute("data-tilt")) || 5;
+        onPointer(t, function (e, r) {
+          var x = (e.clientX - r.left) / r.width - .5, y = (e.clientY - r.top) / r.height - .5;
+          t.style.transition = "transform .15s ease-out, box-shadow .6s";
+          t.style.transform = "perspective(900px) rotateX(" + (-y * max).toFixed(2) + "deg) rotateY(" + (x * max).toFixed(2) + "deg) translate3d(0,-4px,0)";
+        }, function () { t.style.transition = ""; t.style.transform = ""; });
+      });
+      document.querySelectorAll(".magnetic").forEach(function (b) {
+        var lbl = b.querySelector(".lbl");
+        onPointer(b, function (e, r) {
+          var x = e.clientX - r.left - r.width / 2, y = e.clientY - r.top - r.height / 2;
+          b.style.transform = "translate3d(" + (x * .12).toFixed(1) + "px," + (y * .3).toFixed(1) + "px,0)";
+          if (lbl) lbl.style.transform = "translate3d(" + (x * .06).toFixed(1) + "px," + (y * .12).toFixed(1) + "px,0)";
+        }, function () { b.style.transform = ""; if (lbl) lbl.style.transform = ""; });
+      });
+    }
+
+    // Everything scroll-related runs off IntersectionObserver, so scrolling itself does no work
+    var top = document.querySelector(".top"), bar = document.querySelector(".bar"), fab = document.querySelector(".fab"), prog = document.querySelector(".progress");
+    if ("IntersectionObserver" in window) {
+      // header turns into the capsule once the page has moved
+      var sentinel = document.createElement("div");
+      sentinel.style.cssText = "position:absolute;top:0;left:0;width:1px;height:16px;pointer-events:none";
+      document.body.prepend(sentinel);
+      new IntersectionObserver(function (es) { top.classList.toggle("scrolled", !es[0].isIntersecting); }).observe(sentinel);
+
+      // hide the floating WhatsApp buttons while a main CTA is already on screen
+      var visible = new Set();
+      var ctaIo = new IntersectionObserver(function (es) {
+        es.forEach(function (e) { if (e.isIntersecting) visible.add(e.target); else visible.delete(e.target); });
+        var seen = visible.size > 0; bar.classList.toggle("hide", seen); fab.classList.toggle("hide", seen);
+      });
+      document.querySelectorAll(".hero .btn-wa, .plan .btn-wa, .push .btn-wa, .final .btn-wa").forEach(function (c) { ctaIo.observe(c); });
+
+      // pause looping animations that are off screen
+      var pauseIo = new IntersectionObserver(function (es) { es.forEach(function (e) { e.target.classList.toggle("paused", !e.isIntersecting); }); });
+      document.querySelectorAll(".hero, .meet, .final, .btn-wa, .fab, .bar").forEach(function (el) { pauseIo.observe(el); });
+    }
+
+    // Progress line: CSS scroll timeline where supported, otherwise one cheap transform per frame
+    if (!(window.CSS && CSS.supports && CSS.supports("animation-timeline: scroll()"))) {
+      var queued = false;
+      window.addEventListener("scroll", function () {
+        if (queued) return; queued = true;
+        requestAnimationFrame(function () {
+          queued = false;
+          var h = document.documentElement.scrollHeight - window.innerHeight;
+          prog.style.transform = "scaleX(" + (h > 0 ? window.scrollY / h : 0).toFixed(4) + ")";
+        });
+      }, { passive: true });
+    }
+  })();
+
+  // Google rating + reviews (served by Netlify from a 12-hour cache)
+  (function () {
+    if (!window.fetch) return;
+    fetch("/api/google-reviews").then(function (r) { return r.ok ? r.json() : null; }).then(function (d) { if (d && !d.error) render(d); }).catch(function () {});
+
+    function stars(r) { var n = Math.round(r); return "★★★★★".slice(0, n) + "☆☆☆☆☆".slice(0, 5 - n); }
+    function all(sel, fn) { document.querySelectorAll(sel).forEach(fn); }
+    function render(p) {
+      var r = p.rating, n = p.count || 0;
+      if (r) {
+        all('[data-g="rating"]', function (el) { el.textContent = r.toFixed(1); el.hidden = false; });
+        all('[data-g="stars"]', function (el) { el.textContent = stars(r); });
+        all('[data-g="label"]', function (el) { el.textContent = "on Google"; });
+      }
+      if (n) all('[data-g="count"]', function (el) { el.textContent = n.toLocaleString("en-GB") + " Google review" + (n === 1 ? "" : "s"); });
+      var box = document.querySelector('[data-g="reviews"]');
+      var list = p.reviews || [];
+      if (!box || !list.length) return;
+      list.forEach(function (v) {
+        var who = v.author || "Google user";
+        var f = document.createElement("figure"); f.className = "review glass";
+        var qm = document.createElement("span"); qm.className = "qm"; qm.setAttribute("aria-hidden", "true"); qm.textContent = "\u201C";
+        var st = document.createElement("span"); st.className = "stars"; st.textContent = stars(v.rating); st.setAttribute("aria-label", v.rating + " out of 5 stars");
+        var q = document.createElement("q"); q.textContent = v.text;
+        var by = document.createElement("div"); by.className = "by";
+        var av = document.createElement("span"); av.className = "av"; av.setAttribute("aria-hidden", "true"); av.textContent = who.charAt(0).toUpperCase();
+        var sm = document.createElement("small");
+        var url = v.authorUrl;
+        var name = document.createElement(url ? "a" : "span"); name.textContent = who;
+        if (url) { name.href = url; name.target = "_blank"; name.rel = "noopener"; }
+        sm.appendChild(name); sm.appendChild(document.createTextNode(" · " + (v.when || "on Google")));
+        by.appendChild(av); by.appendChild(sm);
+        f.appendChild(qm); f.appendChild(st); f.appendChild(q); f.appendChild(by);
+        box.appendChild(f);
+      });
+      box.hidden = false;
+    }
+  })();
+</script>
+</body>
+</html>
