@@ -1,10 +1,10 @@
 // Fetches the Google rating, review count and latest reviews for MSM Driving.
-// Netlify's CDN keeps the answer for 12 hours, so Google is asked about twice a day
-// however many people visit. That stays well inside Google's free monthly allowance.
+// Netlify's CDN keeps the answer for 2 hours, so Google is asked about 12 times a day
+// (about 360 a month) however many people visit, well inside Google's 1,000 free a month.
 
 const PLACE_ID = "ChIJ76_touZKAokRSTm2ndpbJ2I"; // MSM-Driving on Google
 const API_KEY = process.env.GOOGLE_PLACES_KEY; // set in Netlify: Project configuration > Environment variables
-const CACHE_SECONDS = 12 * 60 * 60;
+const CACHE_SECONDS = 2 * 60 * 60;
 
 export default async () => {
   try {

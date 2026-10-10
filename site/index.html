@@ -882,7 +882,7 @@ footer .wrap { display: flex; flex-wrap: wrap; gap: 10px 28px; justify-content: 
     }
   })();
 
-  // Google rating + reviews (served by Netlify from a 12-hour cache)
+  // Google rating + reviews (served by Netlify from a 2-hour cache)
   (function () {
     if (!window.fetch) return;
     fetch("/api/google-reviews").then(function (r) { return r.ok ? r.json() : null; }).then(function (d) { if (d && !d.error) render(d); }).catch(function () {});
